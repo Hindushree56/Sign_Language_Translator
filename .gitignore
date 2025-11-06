@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+
+# Dataset and split folders (optional if you don’t want to upload large data)
+dataset/
+data_split/
+
+# Model checkpoints (optional)
+*.h5
+*.keras
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
